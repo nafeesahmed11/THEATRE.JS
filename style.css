@@ -71,13 +71,17 @@ span {
 .main{
   display: none;
 }
+/* ________nav area complete______ */
+
+
+/* fixed value */
 ul{
   list-style: none;
 }
 a{
   text-decoration: none !important;
 }
-
+/* fixed value */
 /* fixed value-end */
 /* ______Mobile_Area start______ */
 @media screen and (max-width: 600px){
@@ -164,17 +168,20 @@ display: block;
   clip-path: inset(0% 0% 0% 0% round 10px);
   transition: all 0.4s;
   height: 80vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .menu-list {
   --delay: 0.4s;
   --trdelay: 0.15s;
-  padding: 8px 10px;
-  border-radius: inherit;
-  transition: background-color 0.2s 0s;
+  padding: 10px 21px;
+  /* border-radius: inherit; */
+  /* transition: background-color 0.2s 0s; */
   position: relative;
-  transform: translateY(30px);
-  opacity: 0;
+  /* transform: translateY(30px); */
+  /* opacity: 0; */
+  /* margin-left: 16px; */
 }
 
 .menu-list::after {
@@ -189,7 +196,7 @@ display: block;
 }
 
 .menu-list:hover {
-  background-color: rgb(223, 223, 223);
+  background-color: rgb(30, 30, 30);
 }
 
 .inp:checked ~ .menu-container {
@@ -200,31 +207,6 @@ display: block;
   transform: translateY(0);
   opacity: 1;
 }
-
-.inp:not(:checked) ~ .menu-container .menu-list:nth-child(1) {
-  transition:
-    transform 0.4s var(--delay),
-    opacity 0.4s var(--delay);
-}
-
-.inp:not(:checked) ~ .menu-container .menu-list:nth-child(2) {
-  transition:
-    transform 0.4s calc(var(--delay) + (var(--trdelay) * 1)),
-    opacity 0.4s calc(var(--delay) + (var(--trdelay) * 1));
-}
-
-.inp:not(:checked) ~ .menu-container .menu-list:nth-child(3) {
-  transition:
-    transform 0.4s calc(var(--delay) + (var(--trdelay) * 2)),
-    opacity 0.4s calc(var(--delay) + (var(--trdelay) * 2));
-}
-
-.inp:not(:checked) ~ .menu-container .menu-list:nth-child(4) {
-  transition:
-    transform 0.4s calc(var(--delay) + (var(--trdelay) * 3)),
-    opacity 0.4s calc(var(--delay) + (var(--trdelay) * 3));
-}
-
 .bar-inp {
   -webkit-appearance: none;
   display: none;
@@ -266,12 +248,76 @@ display: block;
   transform-origin: bottom right;
   transform: translateY(calc(var(--transform) * -1)) rotate(45deg);
 }
+/* search option start */
+/* From Uiverse.io by satyamchaudharydev */ 
+/* From uiverse.io by @satyamchaudharydev */
+/* removing default style of button */
+
+.form button {
+  border: none;
+  background: none;
+  color: #8b8ba7;
+}
+/* styling of whole input container */
+.form {
+  /* --timing: 0.3s; */
+  --width-of-input: 190px;
+  --height-of-input: 31px;
+  --border-height: 2px;
+  --input-bg: #fff;
+  /* --border-color: #2f2ee9; */
+  --border-radius: 30px;
+  /* --after-border-radius: 1px; */
+  position: relative;
+  width: var(--width-of-input);
+  height: var(--height-of-input);
+  display: flex;
+  align-items: center;
+  padding-inline: 0.8em;
+  border-radius: var(--border-radius);
+  /* transition: border-radius 0.5s ease; */
+  background: var(--input-bg,#fff);
+  margin: 10px auto;
+}
+/* styling of Input */
+.input {
+  font-size: 0.9rem;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  padding-inline: 0.5em;
+  padding-block: 0.7em;
+  border: none;
+}
+/* styling of animated border */
+.form:before {
+  content: "";
+  position: absolute;
+  background: var(--border-color);
+  transform: scaleX(0);
+  transform-origin: center;
+  width: 100%;
+  height: var(--border-height);
+  left: 0;
+  bottom: 0;
+  border-radius: 1px;
+  transition: transform var(--timing) ease;
+}
+/* Hover on Input */
+
+input:focus {
+  outline: none;
+}
+/* sizing svg icons */
+.form svg {
+  width: 17px;
+  margin-top: 3px;
+}
+/* search option start */
+
+/* ________nav area complete______ */
 
 
-
-
-
-/* fixed value-start */
 
 }
 /* ______Mobile_Area end______ */
