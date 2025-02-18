@@ -121,6 +121,9 @@ span {
   width: 90vw;
   
 }
+.main{
+  display: none;
+}
 
 /* fixed value */
 
@@ -157,7 +160,6 @@ gap: 10px;
 display: block;
 }
 .main {
-  font-weight: 800;
   color: white;
   background-color:black;
   padding: 3px 15px;
@@ -225,11 +227,11 @@ display: block;
   --trdelay: 0.15s;
   padding: 10px 21px;
   /* border-radius: inherit; */
-  /* transition: background-color 0.2s 0s; */
+  transition: background-color 0.2s 0s;
   position: relative;
   /* transform: translateY(30px); */
-  /* opacity: 0; */
-  /* margin-left: 16px; */
+  opacity: 0;
+  margin-left: 16px;
 }
 
 .menu-list::after {
