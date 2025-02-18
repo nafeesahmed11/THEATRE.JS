@@ -121,10 +121,10 @@ span {
   font-weight: 1000;
 }
 
-.main-area p {
+.main-area p, .scnd-para {
   color: rgba(255, 253, 253, 0.771);
-  font-size: 18px;
-  margin: 12px 9vw;
+  font-size: 22px;
+  margin: 12px 24vw;
 }
 .main-area h1 samp{
   color: #4ADE80;
@@ -165,8 +165,9 @@ span {
 }
 
 .btn-1 a{
-  color: rgba(0, 0, 0, 0.865);
-  font-weight: 500;
+  color: rgba(0, 0, 0, 0.67);
+  font-weight: bold;
+
 }
 
 /* _____2nd Area start______ */
@@ -179,12 +180,13 @@ span {
   text-align: center;
 }
 
-.scnd-cont p{
+.scnd-cont p {
   color: rgb(255, 253, 253, 0.771); 
 }
 
-.scnd-cont h3{
-  margin: 50px 0px 0px 0px ; 
+.scnd-cont h3 {
+  margin: 50px 0px 0px 0px;
+  font-size: 30px;
 }
 
 .scnd-cont samp{
@@ -204,8 +206,11 @@ a{
 /* fixed value-end */
 /* ______Mobile_Area start______ */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 728px){
   /* nav area */
+.desk-nav{
+    display: none;
+  }
 .mob_nav{
     display: inline-block;
   } 
@@ -413,31 +418,27 @@ input:focus {
   width: 17px;
   margin-top: 3px;
 }
-/* search option start */
+
 
 /*_nav area complete_ */
 
 /* --main Area start-- */
 .main-area h1:nth-child(1) {
+ 
   color: #FFFFFF;
-  font-size: 25px;
-  margin: 10px 34px;
+  font-size: 32px;
+  margin: 15px 5px;
   font-family: "Roboto", serif;
 }
 .main-area h1:nth-child(2) {
   color: #FFFFFF;
   font-size: 25px;
-  margin: 10px 34px;
-  font-family: "Roboto", serif;
-}
-.hed-ara-1{
-  color: #FFFFFF;
-  font-size: 25px;
-  margin: 0px 5px;
+  margin: 5px 34px;
   font-family: "Roboto", serif;
 }
 
-.main-area p{
+
+.main-area p {
   color: rgba(255, 253, 253, 0.674);
   font-size: 18px;
   margin: 16px 5px;
@@ -452,9 +453,9 @@ input:focus {
 /* video area end */
 
 /* --main Area start-- */
-.desk-nav{
-  display: none;
-  
+.main-area p, .scnd-para {
+  font-size: 18px;
+  margin: 12px 8vw;
 }
 
 }
