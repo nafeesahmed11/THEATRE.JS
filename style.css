@@ -3,6 +3,7 @@ body{
   margin: 0;
   padding: 0;
 }
+
 .nav_area {
   background-color: black;
   display: flex;
@@ -10,15 +11,24 @@ body{
   gap: 10px;
   padding: 0px 12px;
   height: 50px;
+  position: sticky;
+  top: 0;
+ 
 }
+
 .hed_para{
   /* background-color: black; */
   display: flex;
   width: 20%;
-
 }
+
 .hed_pa{
   color: white;
+}
+
+.desk_nav{
+  display: flex;
+  justify-content: space-between;
 }
 
 .ul_main {
@@ -54,34 +64,72 @@ span {
   justify-content: space-around;
   cursor: pointer;
   width: auto;
-  gap: 10px;
+  gap: 1rem;
 }
+
 .main > .inp {
   display: none;
 }
+
 .mob_area{
   width: 80%;
   display: flex;
   justify-content: end;
-  
 }
+
 .mob_menu{
   display: none;
   }
-.main{
-  display: none;
-}
-/* ________nav area complete______ */
 
+/*___nav area complete__*/
+
+/* main-area Start */
+.main_area {
+  background-image: linear-gradient(95deg, black, rgb(5 78 86), black);
+  width: auto;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 100px;
+ 
+}
+
+.main_area p {
+  color: rgba(255, 253, 253, 0.674);
+  font-size: 18px;
+  margin: 12px 200px;
+}
+
+
+/* main-area End */
 
 /* fixed value */
+.main_area h1{
+ color: #FFFFFF;
+ font-size: 40px;
+ margin: 0;
+ font-family: "Roboto", serif;
+}
+.main_area h1 samp{
+  color: #4ADE80;
+}
+
+.main_area video {
+  overflow: hidden;
+  width: 90vw;
+  
+}
+
+/* fixed value */
+
 ul{
   list-style: none;
 }
 a{
   text-decoration: none !important;
 }
-/* fixed value */
 /* fixed value-end */
 /* ______Mobile_Area start______ */
 @media screen and (max-width: 600px){
@@ -249,9 +297,7 @@ display: block;
   transform: translateY(calc(var(--transform) * -1)) rotate(45deg);
 }
 /* search option start */
-/* From Uiverse.io by satyamchaudharydev */ 
-/* From uiverse.io by @satyamchaudharydev */
-/* removing default style of button */
+
 
 .form button {
   border: none;
@@ -265,9 +311,7 @@ display: block;
   --height-of-input: 31px;
   --border-height: 2px;
   --input-bg: #fff;
-  /* --border-color: #2f2ee9; */
   --border-radius: 30px;
-  /* --after-border-radius: 1px; */
   position: relative;
   width: var(--width-of-input);
   height: var(--height-of-input);
@@ -275,7 +319,6 @@ display: block;
   align-items: center;
   padding-inline: 0.8em;
   border-radius: var(--border-radius);
-  /* transition: border-radius 0.5s ease; */
   background: var(--input-bg,#fff);
   margin: 10px auto;
 }
@@ -303,7 +346,6 @@ display: block;
   border-radius: 1px;
   transition: transform var(--timing) ease;
 }
-/* Hover on Input */
 
 input:focus {
   outline: none;
@@ -315,8 +357,37 @@ input:focus {
 }
 /* search option start */
 
-/* ________nav area complete______ */
+/*_nav area complete_ */
 
+/* --main Area start-- */
+.main_area h1:nth-child(1) {
+  color: #FFFFFF;
+  font-size: 25px;
+  margin: 10px 34px;
+  font-family: "Roboto", serif;
+}
+.main_area h1:nth-child(2) {
+  color: #FFFFFF;
+  font-size: 25px;
+  margin: 0px 5px;
+  font-family: "Roboto", serif;
+}
+
+.main_area p {
+  color: rgba(255, 253, 253, 0.674);
+  font-size: 18px;
+  margin: 16px 5px;
+  text-align: center;
+}
+/* video area start */
+.main_area video {
+  overflow: hidden;
+  width: 90vw;
+  
+}
+/* video area end */
+
+/* --main Area start-- */
 
 
 }
