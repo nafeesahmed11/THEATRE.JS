@@ -4,7 +4,7 @@ body{
   padding: 0;
 }
 
-.nav_area {
+.nav-area {
   background-color: black;
   display: flex;
   align-items: center;
@@ -16,32 +16,32 @@ body{
  
 }
 
-.hed_para{
+.hed-para{
   /* background-color: black; */
   display: flex;
   width: 20%;
 }
 
-.hed_pa{
+.hed-pa{
   color: white;
 }
 
-.desk_nav{
+.desk-nav{
   display: flex;
   justify-content: space-between;
 }
 
-.ul_main {
+.ul-main {
   display: flex;
   justify-content: end;
   gap: 1em;
 }
-.ul_main>li{
+.ul-main>li{
   display: flex;
   align-items: center;
   width: auto;
 }
-.ul_main>li>a {
+.ul-main>li>a {
   color: white;
 }
 nav {
@@ -57,7 +57,7 @@ span {
   margin: auto 0px;
 }
 
-.socal_med {
+.socal-med {
   margin: 0px 10px;
   display: flex;
   align-items: center;
@@ -71,20 +71,20 @@ span {
   display: none;
 }
 
-.mob_area{
+.mob-area{
   width: 80%;
   display: flex;
   justify-content: end;
 }
 
-.mob_menu{
+.mob-menu{
   display: none;
   }
 
 /*___nav area complete__*/
 
 /* main-area Start */
-.main_area {
+.main-area {
   background-image: linear-gradient(95deg, black, rgb(5 78 86), black);
   width: auto;
   padding: 0 10px;
@@ -96,7 +96,7 @@ span {
  
 }
 
-.main_area p {
+.main-area p {
   color: rgba(255, 253, 253, 0.674);
   font-size: 18px;
   margin: 12px 200px;
@@ -106,17 +106,17 @@ span {
 /* main-area End */
 
 /* fixed value */
-.main_area h1{
+.main-area h1{
  color: #FFFFFF;
  font-size: 40px;
  margin: 0;
  font-family: "Roboto", serif;
 }
-.main_area h1 samp{
+.main-area h1 samp{
   color: #4ADE80;
 }
 
-.main_area video {
+.main-area video {
   overflow: hidden;
   width: 90vw;
   
@@ -140,13 +140,13 @@ a{
   .mob_nav{
     display: inline-block;
   } 
-.ul_main{
+.main-area{
   display: none;
 }
-.socal_med{
+.socal-med{
   display: none;
 }
-.socal_med_mob{
+.socal-med_mob{
   margin: 0px 10px;
 display: flex;
 align-items: center;
@@ -164,7 +164,6 @@ display: block;
   background-color:black;
   padding: 3px 15px;
   border-radius: 10px;
-
   display: flex;
   align-items: center;
   height: 2.5rem;
@@ -362,27 +361,27 @@ input:focus {
 /*_nav area complete_ */
 
 /* --main Area start-- */
-.main_area h1:nth-child(1) {
+.main-area h1:nth-child(1) {
   color: #FFFFFF;
   font-size: 25px;
   margin: 10px 34px;
   font-family: "Roboto", serif;
 }
-.main_area h1:nth-child(2) {
+.main-area h1:nth-child(2) {
   color: #FFFFFF;
   font-size: 25px;
   margin: 0px 5px;
   font-family: "Roboto", serif;
 }
 
-.main_area p {
+.main-area p {
   color: rgba(255, 253, 253, 0.674);
   font-size: 18px;
   margin: 16px 5px;
   text-align: center;
 }
 /* video area start */
-.main_area video {
+.main-area video {
   overflow: hidden;
   width: 90vw;
   
