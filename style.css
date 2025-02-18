@@ -13,7 +13,7 @@ body{
   height: 50px;
   position: sticky;
   top: 0;
- 
+ z-index: 2;
 }
 
 .hed-para{
@@ -96,8 +96,6 @@ span {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-bottom: 100px;
- 
 }
 
 .content{
@@ -108,14 +106,14 @@ span {
 
 .main-area h1:nth-child(1) {
   color: #FFFFFF;
-  font-size: 50px;
+  font-size: 70px;
   margin: 20px 34px 5px 34px;
   font-family: "Roboto", serif;
   font-weight: 1000;
 }
 .main-area h1:nth-child(2) {
   color: #FFFFFF;
-  font-size: 50px;
+  font-size: 70px;
   margin: 0px auto;
   font-family: "Roboto", serif;
   font-weight: 1000;
@@ -124,11 +122,13 @@ span {
 .main-area p, .scnd-para {
   color: rgba(255, 253, 253, 0.771);
   font-size: 22px;
-  margin: 12px 24vw;
+  margin: 5px 50px 50px 50px;
 }
 .main-area h1 samp{
   color: #4ADE80;
-  font-weight: 1000;
+  font-weight: bold;
+  font-family: "Roboto", serif;
+  font-size: 70px;
 }
 
 
@@ -171,7 +171,12 @@ span {
 }
 
 /* _____2nd Area start______ */
-
+main.scnd-area {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
 .scnd-cont{
   display: flex;
   flex-direction: column;
@@ -186,12 +191,23 @@ span {
 
 .scnd-cont h3 {
   margin: 50px 0px 0px 0px;
-  font-size: 30px;
+  font-size: 70px;
 }
 
 .scnd-cont samp{
   color: #4ADE80;
+
 }
+
+.scnd-video{
+  height: 50vh;
+  /* width: 90vw; */
+  display: flex;
+  align-content: center;
+  padding-bottom: 100px;
+  margin: 0 auto;
+}
+
 /* _____2nd Area End______ */
 
 /* fixed value */
@@ -272,8 +288,8 @@ a{
   color: #ffff;
   border-radius: 10px;
   position: absolute;
-  width: 43vw;
-  left: -36px;
+  width: 50vw;
+  left: -20px;
   top: 130%;
   overflow: hidden;
   clip-path: inset(0% 0% 0% 0% round 10px);
@@ -424,10 +440,9 @@ input:focus {
 
 /* --main Area start-- */
 .main-area h1:nth-child(1) {
- 
   color: #FFFFFF;
-  font-size: 32px;
-  margin: 15px 5px;
+  font-size: 58px;
+  margin: 80px 5px 0 0;
   font-family: "Roboto", serif;
 }
 .main-area h1:nth-child(2) {
