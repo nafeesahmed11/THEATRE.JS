@@ -174,7 +174,6 @@ span {
 main.scnd-area {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 .scnd-cont{
@@ -204,11 +203,55 @@ main.scnd-area {
   /* width: 90vw; */
   display: flex;
   align-content: center;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
   margin: 0 auto;
 }
 
+
+/*media parent and child-start*/
+
+.sv-cont {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom:50px ;
+  gap: 1rem;
+}
+
+.sv-cont>.sv-co1,.sv-co2,.sv-co3{
+  width: 30vw;
+ height: 25vh;
+ justify-content: start;
+ display: flex;
+ top: 0;
+
+ h4{
+  color: #ffffffc7;
+  margin: 2px 0 0 2px;
+
+ }
+}
+
+.sv-co1{
+  background-image: url(./media/mid-area.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sv-co2{
+  background-image: url(./media/mid-area2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sv-co3{
+  background-image: url(./media/mid-area3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/*parent and child-end*/
+
 /* _____2nd Area End______ */
+
 
 /* fixed value */
 
@@ -440,18 +483,20 @@ input:focus {
 
 /* --main Area start-- */
 .main-area h1:nth-child(1) {
-  color: #FFFFFF;
   font-size: 58px;
   margin: 80px 5px 0 0;
-  font-family: "Roboto", serif;
-}
-.main-area h1:nth-child(2) {
-  color: #FFFFFF;
-  font-size: 25px;
-  margin: 5px 34px;
-  font-family: "Roboto", serif;
 }
 
+.main-area h1 samp {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.main-area h1:nth-child(2) {
+  font-size: 50px;
+  margin: 5px 34px;
+
+}
 
 .main-area p {
   color: rgba(255, 253, 253, 0.674);
@@ -459,6 +504,7 @@ input:focus {
   margin: 16px 5px;
   text-align: center;
 }
+
 /* video area start */
 .main-area video{
   overflow: hidden;
@@ -472,6 +518,54 @@ input:focus {
   font-size: 18px;
   margin: 12px 8vw;
 }
+
+.scnd-video video {
+  width: 44vh;
+  height: 130px;
+}
+
+/*media parent and child-start*/
+
+.sv-cont {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom:50px ;
+  gap: 1rem;
+}
+
+.sv-cont>.sv-co1,.sv-co2,.sv-co3{
+  width: 30vw;
+ height: 25vh;
+ justify-content: start;
+ display: flex;
+ top: 0;
+
+ h4{
+  color: #ffffffc7;
+  margin: 2px 0 0 2px;
+
+ }
+}
+
+.sv-co1{
+  background-image: url(./media/mid-area.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sv-co2{
+  background-image: url(./media/mid-area2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sv-co3{
+  background-image: url(./media/mid-area3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/*parent and child-end*/
+
 
 }
 /* ______Mobile_Area end______ */
