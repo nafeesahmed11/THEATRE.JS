@@ -101,7 +101,7 @@ span {
 .content{
   display: flex;
   flex-direction: column;
-  align-items: center !important;
+  align-items: center;
 }
 
 .main-area h1:nth-child(1) {
@@ -200,10 +200,9 @@ main.scnd-area {
 
 .scnd-video{
   height: 50vh;
-  /* width: 90vw; */
   display: flex;
   align-content: center;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   margin: 0 auto;
 }
 
@@ -219,15 +218,21 @@ main.scnd-area {
 
 .sv-cont>.sv-co1,.sv-co2,.sv-co3{
   width: 30vw;
- height: 25vh;
+ height: 200px;
  justify-content: start;
  display: flex;
  top: 0;
 
  h4{
-  color: #ffffffc7;
+  color: #f4f4f4f4;
   margin: 2px 0 0 2px;
-
+  height: 29px;
+  width: auto;
+  font-size: 20px;
+  font-weight: bolder;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(100);
+  background-color: #0000002e;
  }
 }
 
@@ -247,6 +252,7 @@ main.scnd-area {
   background-image: url(./media/mid-area3.jpg);
   background-position: center;
   background-size: cover;
+  filter: brightness(1);
 }
 /*parent and child-end*/
 
@@ -519,51 +525,31 @@ input:focus {
   margin: 12px 8vw;
 }
 
+.scnd-video{
+  padding-bottom: 5px;
+  
+}
+
 .scnd-video video {
-  width: 44vh;
-  height: 130px;
+  width: 120vh;
+  height: 160px;
 }
 
 /*media parent and child-start*/
 
-.sv-cont {
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom:50px ;
-  gap: 1rem;
+.sv-cont{
+  flex-direction: column;
 }
 
 .sv-cont>.sv-co1,.sv-co2,.sv-co3{
-  width: 30vw;
- height: 25vh;
- justify-content: start;
- display: flex;
- top: 0;
-
+ height: 30vh;
+ width: 90vw;
  h4{
-  color: #ffffffc7;
-  margin: 2px 0 0 2px;
-
+ font-size: 10px;
+ height: 21px;
  }
 }
 
-.sv-co1{
-  background-image: url(./media/mid-area.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.sv-co2{
-  background-image: url(./media/mid-area2.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.sv-co3{
-  background-image: url(./media/mid-area3.jpg);
-  background-position: center;
-  background-size: cover;
-}
 /*parent and child-end*/
 
 
