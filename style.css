@@ -3,7 +3,17 @@ body{
   margin: 0;
   padding: 0;
 }
+/* fixed values */
 
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none !important;
+  
+}
+
+/* nav start */
 .nav-area {
   background-color: black;
   display: flex;
@@ -199,7 +209,7 @@ main.scnd-area {
 }
 
 .scnd-video{
-  height: 50vh;
+  /* height: 50vh; */
   display: flex;
   align-content: center;
   padding-bottom: 30px;
@@ -259,16 +269,12 @@ main.scnd-area {
 /* _____2nd Area End______ */
 
 
-/* fixed value */
 
-ul{
-  list-style: none;
-}
-a{
-  text-decoration: none !important;
-  
-}
-/* fixed value-end */
+
+
+
+
+
 /* ______Mobile_Area start______ */
 
 @media screen and (max-width: 728px){
@@ -552,6 +558,7 @@ input:focus {
 
 /*parent and child-end*/
 
+/* _____2nd area end_____ */
 
 }
 /* ______Mobile_Area end______ */
