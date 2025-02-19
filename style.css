@@ -23,6 +23,7 @@ a{
   height: 50px;
   position: sticky;
   top: 0;
+  justify-content: space-between;
  z-index: 2;
 }
 
@@ -285,10 +286,10 @@ overflow: hidden !important;
 /* _____3rd Area end______ */
 
 /* _____4th Area Start______ */
-.parent-crd{
-  width: 60vw;
-  align-self: start ;
-  margin-left: 3vw;
+.parent-crd {
+  width: 93vw;
+  align-self: start;
+  margin-left: 5vw;
 }
 .child-crd{
   display: flex;
@@ -304,8 +305,14 @@ overflow: hidden !important;
 /* _____4th Area End______ */
 
 /* _____5th Area Start______ */
-.fth-crd-p{
-  
+
+.fth-crd-c{
+  display: flex;
+  flex-direction: row;
+}
+
+.git-icon{
+  dis
 }
 
 /* _____5th Area End______ */
@@ -321,10 +328,9 @@ overflow: hidden !important;
 
 @media screen and (max-width: 728px){
   /* nav area */
-.desk-nav{
-    display: none;
+
   }
-.mob_nav{
+/* .mob_nav{
     display: inline-block;
   } 
 
@@ -334,7 +340,7 @@ overflow: hidden !important;
 
 /* Mobile nav bar */
 
-.main {
+/* .main {
   color: white;
   background-color:black;
   padding: 3px 15px;
@@ -346,9 +352,9 @@ overflow: hidden !important;
   position: relative;
   cursor: pointer;
   justify-content: space-between;
-}
+} */
 
-.arrow {
+/* .arrow {
   height: 34%;
   aspect-ratio: 1;
   margin-block: auto;
@@ -356,9 +362,9 @@ overflow: hidden !important;
   display: flex;
   justify-content: center;
   transition: all 0.3s;
-}
+} */
 
-.arrow::after,
+/* .arrow::after,
 .arrow::before {
   content: "";
   position: absolute;
@@ -367,20 +373,20 @@ overflow: hidden !important;
   width: 2.5px;
   border-radius: 500px;
   transform-origin: bottom;
-}
+} */
 
-.arrow::after {
+/* .arrow::after {
   transform: rotate(35deg) translateX(-0.5px);
-}
-.arrow::before {
+} */
+/* .arrow::before {
   transform: rotate(-35deg) translateX(0.5px);
-}
+} */
 
-.main > .inp:checked + .arrow {
+/* .main > .inp:checked + .arrow {
   transform: rotateX(180deg);
-}
+} */
 
-.menu-container {
+/* .menu-container {
   background-color: #0e0e0e;
   color: #ffff;
   border-radius: 10px;
@@ -394,21 +400,19 @@ overflow: hidden !important;
   height: 80vh;
   display: flex;
   flex-direction: column;
-}
-
+} */
+/* 
 .menu-list {
   --delay: 0.4s;
   --trdelay: 0.15s;
   padding: 10px 21px;
-  /* border-radius: inherit; */
   transition: background-color 0.2s 0s;
   position: relative;
-  /* transform: translateY(30px); */
   opacity: 0;
   margin-left: 16px;
-}
+} */
 
-.menu-list::after {
+/* .menu-list::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -417,12 +421,12 @@ overflow: hidden !important;
   height: 1px;
   background-color: rgba(0, 0, 0, 0.3);
   width: 95%;
-}
+} */
 
-.menu-list:hover {
+/* .menu-list:hover {
   background-color: rgb(30, 30, 30);
-}
-
+} */
+/* 
 .inp:checked ~ .menu-container {
   clip-path: inset(10% 50% 90% 50% round 10px);
 }
@@ -456,9 +460,9 @@ overflow: hidden !important;
   background-color: white;
   transition: all 0.4s;
   position: relative;
-}
+} */
 
-.inp:not(:checked) ~ .bar > .top {
+/* .inp:not(:checked) ~ .bar > .top {
   transform-origin: top right;
   transform: translateY(var(--transform)) rotate(-45deg);
 }
@@ -471,8 +475,8 @@ overflow: hidden !important;
 .inp:not(:checked) ~ .bar > .bottom {
   transform-origin: bottom right;
   transform: translateY(calc(var(--transform) * -1)) rotate(45deg);
-}
-/* search option start */
+} */
+/* 
 
 
 .form button {
@@ -480,9 +484,8 @@ overflow: hidden !important;
   background: none;
   color: #8b8ba7;
 }
-/* styling of whole input container */
+
 .form {
-  /* --timing: 0.3s; */
   --width-of-input: 190px;
   --height-of-input: 31px;
   --border-height: 2px;
@@ -498,7 +501,7 @@ overflow: hidden !important;
   background: var(--input-bg,#fff);
   margin: 10px auto;
 }
-/* styling of Input */
+
 .input {
   font-size: 0.9rem;
   background-color: transparent;
@@ -508,7 +511,7 @@ overflow: hidden !important;
   padding-block: 0.7em;
   border: none;
 }
-/* styling of animated border */
+
 .form:before {
   content: "";
   position: absolute;
@@ -526,12 +529,12 @@ overflow: hidden !important;
 input:focus {
   outline: none;
 }
-/* sizing svg icons */
+
 .form svg {
   width: 17px;
   margin-top: 3px;
-}
-
+} */
+ */
 
 /*_nav area complete_ */
 
@@ -603,7 +606,7 @@ input:focus {
   height: auto;
   margin: 0 !important;
 }
-}
+
 
 /*parent and child-end*/
 
