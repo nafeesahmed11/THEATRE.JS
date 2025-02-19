@@ -289,11 +289,13 @@ overflow: hidden !important;
 /* _____3rd Area end______ */
 
 /* _____4th Area Start______ */
+
 .parent-crd {
-  width: 93vw;
+  width: 90vw;
   align-self: start;
-  margin-left: 5vw;
+  margin: 0 5vw;
 }
+
 .child-crd{
   display: flex;
   flex-direction: column;
@@ -308,6 +310,10 @@ overflow: hidden !important;
 /* _____4th Area End______ */
 
 /* _____5th Area Start______ */
+
+.git-area{
+  padding-bottom: 50px;
+}
 
 .fth-crd-p{
     height: 30vh;
@@ -330,10 +336,22 @@ overflow: hidden !important;
 
 /* _____5th Area End______ */
 
+/* 6th area start */
+main.admin-area {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 22px;
+  overflow: hidden;
+  margin: 0 10px;
+  justify-items: center;
+}
+
+.admin-prnt{
+  width: 20vw;
+}
 
 
-
-
+/* 6th area End */
 
 
 
@@ -427,5 +445,9 @@ img, video {
   width: 90vw;
 }
 
+
+main.admin-area {
+  grid-template-columns: repeat(1,1fr);
+}
 }
 /* ______Mobile_Area end______ */
