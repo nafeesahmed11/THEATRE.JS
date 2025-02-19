@@ -157,6 +157,7 @@ span {
 }
 /* button area */
 .btn-1 {
+  background-color: rgba(255, 255, 255, 0.926);
   margin: 50px auto;
   border: 3px rgba(137, 137, 137, 0.322) solid;
   border-style: outset;
@@ -175,7 +176,7 @@ span {
 }
 
 .btn-1 a{
-  color: rgba(0, 0, 0, 0.67);
+  color: rgba(0, 0, 0, 0.826);
   font-weight: bold;
 
 }
@@ -222,7 +223,7 @@ main.scnd-area {
 .sv-cont {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom:50px ;
+  padding: 0 20px 50px 20px;
   gap: 1rem;
 }
 
@@ -266,6 +267,48 @@ overflow: hidden !important;
 /*parent and child-end*/
 
 /* _____2nd Area End______ */
+
+/* _____3rd Area start______ */
+
+.tco1{
+  background-image:url(./media/3rd-area-code1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.tco2{
+  background-image:url(./media/3rd-area-code2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* _____3rd Area end______ */
+
+/* _____4th Area Start______ */
+.parent-crd{
+  width: 60vw;
+  align-self: start ;
+  margin-left: 3vw;
+}
+.child-crd{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0 50px ;
+  h1{
+    font-weight: bold;
+    font-size: 30px;
+  
+  }
+}
+/* _____4th Area End______ */
+
+/* _____5th Area Start______ */
+.fth-crd-p{
+  
+}
+
+/* _____5th Area End______ */
 
 
 
@@ -565,6 +608,12 @@ input:focus {
 /*parent and child-end*/
 
 /* _____2nd area end_____ */
+
+/* 4th area strat*/
+.parent-crd{
+  width: 90vw;
+}
+/* 4th area strat*/
 
 }
 /* ______Mobile_Area end______ */
