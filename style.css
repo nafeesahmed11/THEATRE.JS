@@ -232,7 +232,7 @@ main.scnd-area {
  justify-content: start;
  display: flex;
  top: 0;
-
+overflow: hidden !important;
  h4{
   color: #f4f4f4f4;
   margin: 2px 0 0 2px;
@@ -246,23 +246,22 @@ main.scnd-area {
  }
 }
 
-.sv-co1{
+.sv-cont .sco1{
   background-image: url(./media/mid-area.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.sv-co2{
+.sv-cont .sco2{
   background-image: url(./media/mid-area2.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.sv-co3{
+.sv-cont .sco3{
   background-image: url(./media/mid-area3.jpg);
   background-position: center;
   background-size: cover;
-  filter: brightness(1);
 }
 /*parent and child-end*/
 
@@ -531,14 +530,16 @@ input:focus {
   margin: 12px 8vw;
 }
 
-.scnd-video{
-  padding-bottom: 5px;
-  
+.scnd-video {
+  height: 20vh;
+  /* width: 100vw; */
+  padding-bottom: 15px;
+  overflow: hidden;
 }
 
 .scnd-video video {
-  width: 120vh;
-  height: 160px;
+  /* width: 120vh; */
+  /* height: 10vh; */
 }
 
 /*media parent and child-start*/
@@ -554,6 +555,11 @@ input:focus {
  font-size: 10px;
  height: 21px;
  }
+ .scnd-cont h3{
+  font-size: 10px !important;
+  height: auto;
+  margin: 0 !important;
+}
 }
 
 /*parent and child-end*/
