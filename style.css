@@ -352,14 +352,26 @@ main.admin-area {
 }
 
 .admin-card{
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
 }
 
 .ad-header {
   display: flex;
   margin: 2px 0 0 0;
+  padding-bottom: 5px;
 }
+
+.ad-content{
+  color: rgba(255, 255, 255, 0.761);
+  padding: 5px 10px ;
+}
+
+.ad-footer{
+  color: rgba(255, 255, 255, 0.761);
+  padding: 5px 10px ;
+}
+
 
 .ad-prof {
   background-image: url(./media/prof1c.png);
