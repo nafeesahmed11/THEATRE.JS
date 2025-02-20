@@ -348,7 +348,7 @@ main.admin-area {
   border: 1px solid #7e79798e;
   padding: 22px;
   filter: blur(0px);
-  content: '';
+  border-radius: 20px;
 }
 
 .admin-card{
