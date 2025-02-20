@@ -93,14 +93,13 @@ span {
   }
 
 /*___nav area complete__*/
-/* parent  */
+
 .parent {
   background-image: linear-gradient(324deg, black, rgb(3 48 53), black);
 }
 /* main-area Start */
 
 .main-area {
-  /* background-image: linear-gradient(95deg, black, rgb(5 78 86), black); */
   width: auto;
   padding: 0 10px;
   display: flex;
@@ -142,20 +141,15 @@ span {
   font-size: 70px;
 }
 
-
-/* main-area End */
-
-/* fixed value */
-
-
-
 .main-area video {
   overflow: hidden;
   width: 80vw;
 }
+
 .main{
   display: none;
 }
+
 /* button area */
 .btn-1 {
   background-color: rgba(255, 255, 255, 0.926);
@@ -188,6 +182,7 @@ main.scnd-area {
   flex-direction: column;
   align-items: center;
 }
+
 .scnd-cont{
   display: flex;
   flex-direction: column;
@@ -344,12 +339,55 @@ main.admin-area {
   overflow: hidden;
   margin: 0 10px;
   justify-items: center;
+  padding-bottom: 100px;
 }
 
-.admin-prnt{
+.adm-parent {
   width: 20vw;
+  background-image: linear-gradient(130deg, rgb(94 85 72 / 55%), transparent, rgb(255 255 255 / 21%));
+  border: 1px solid #7e79798e;
+  padding-bottom: 20px;
+  filter: blur(0px);
+  content: '';
 }
 
+.admin-card{
+  display: flex;
+  flex-direction: row;
+}
+
+.ad-header {
+  display: flex;
+  margin: 2px 0 0 0;
+}
+
+.ad-prof {
+  background-image: url(./media/prof1c.png);
+  height: 34px;
+  width: 35px;
+  border-radius: 116rem;
+  background-position: -9px -3px;
+  background-size: 63px;
+  margin: 6px 4px 0 4px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.ad-prof img {
+  height: 9vh;
+}
+
+.ad-name{
+  color: whitesmoke;
+}
+
+.ad-nam1 {
+  margin: 0;
+  height: 20px;
+  font-size: 10px;
+  font-weight: bolder;
+  padding-left: 5px;
+}
 
 /* 6th area End */
 
@@ -445,9 +483,15 @@ img, video {
   width: 90vw;
 }
 
-
+/* admin Area */
 main.admin-area {
   grid-template-columns: repeat(1,1fr);
 }
+
+.adm-parent{
+  width: 90vw;
+}
+
+
 }
 /* ______Mobile_Area end______ */
