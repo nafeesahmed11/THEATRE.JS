@@ -243,12 +243,12 @@ overflow: hidden !important;
   color: #f4f4f4f4;
   margin: 2px 0 0 2px;
   height: 29px;
-  width: auto;
+  width: 1vw;
   font-size: 20px;
   font-weight: bolder;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(100);
+  backdrop-filter: blur(4px);
   background-color: #0000002e;
+  border-radius: 1rem;
  }
 }
 
@@ -524,17 +524,17 @@ main.admin-area {
 
  
 .main-area h1:nth-child(1) {
-  font-size: 58px;
+  font-size: 12vh;
   margin: 80px 5px 0 0;
 }
 
 .main-area h1 samp {
   font-weight: bold;
-  font-size: 64px;
+  font-size: 12vh;
 }
 
 .main-area h1:nth-child(2) {
-  font-size: 50px;
+  font-size: 12vh;
   margin: 5px 34px;
 
 }
@@ -565,6 +565,7 @@ main.admin-area {
   padding-bottom: 156px;
   overflow: hidden;
   margin: 0 22px;
+  padding-left: 19px;
 }
 
 .sv-cont {
@@ -586,7 +587,7 @@ main.admin-area {
  }
 
  .scnd-cont h3 {
-  font-size: 8vh;
+  font-size: 12vh;
   height: auto;
   margin: 0 !important;
 }
@@ -634,8 +635,8 @@ main.admin-area {
 /* fixed value */
   video {
   max-width: 89%;
-  height: 25vh;
-  left: 26px;
+  height: 50vh;
+  /* left: 26px; */
   position: relative;
   overflow: hidden;
 }
