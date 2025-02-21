@@ -3,6 +3,12 @@
   margin: 0;
   padding: 0;
 }
+
+.parent {
+  background-image: linear-gradient(324deg, black, rgb(3 48 53), black);
+  overflow: hidden;
+}
+
 /* fixed values */
 
 ul{
