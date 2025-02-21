@@ -499,12 +499,15 @@ main.admin-area {
 /* ______Mobile_Area start______ */
 
 @media  screen and (max-width: 600px) {
-  
+
   .desk-nav {
-    display: flex;
-    justify-content: space-between;
     display: none;
 }
+
+.mob-menu{
+  display: block;
+  }
+
  
 .main-area h1:nth-child(1) {
   font-size: 58px;
