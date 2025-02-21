@@ -492,9 +492,13 @@ main.admin-area {
 
 /* ______Mobile_Area start______ */
 
-@media  screen and (max-width: 728px) {
+@media  screen and (max-width: 600px) {
   
-
+  .desk-nav {
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
  
 .main-area h1:nth-child(1) {
   font-size: 58px;
@@ -568,7 +572,7 @@ img, video {
  }
 
  .scnd-cont h3 {
-  font-size: 9vh;
+  font-size: 8vh;
   height: auto;
   margin: 0 !important;
 }
@@ -591,7 +595,27 @@ main.admin-area {
 .adm-parent{
   width: 90vw;
 }
+/* footer area */
 
+.get-start {
+  width: 25vw;
+}
+
+.btm-parent {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* fixed value */
+img, video {
+  max-width: 89%;
+  height: 50vh;
+  left: 26px;
+  position: relative;
+  overflow: hidden;
+}
 
 }
 /* ______Mobile_Area end______ */
