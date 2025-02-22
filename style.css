@@ -562,7 +562,7 @@ main.admin-area {
 }
 
 .sv-cont>.sv-co1, .sv-co2, .sv-co3 {
-  height: 10vh;
+  height: 15vh;
   width: 80vw;
   border-radius: 1rem;
 }
