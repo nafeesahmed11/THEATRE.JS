@@ -30,7 +30,7 @@ a{
   position: sticky;
   top: 0;
   justify-content: space-between;
- z-index: 2;
+  z-index: 2;
 }
 
 .hed-para{
@@ -127,6 +127,7 @@ span {
   font-family: "Roboto", serif;
   font-weight: 1000;
 }
+
 .main-area h1:nth-child(2) {
   color: #FFFFFF;
   font-size: 70px;
@@ -167,7 +168,7 @@ span {
   width: 250px;
   border-radius: .4rem;
   box-shadow: -2px 0px 12px 0px rgba(255, 166, 0, 0.823), 2px 0px 8px 0px rgba(0, 128, 0, 0.113);
- transition:box-shadow .9s ease .1s ,height .9s ease .1s ,width .9s ease .1s;;
+ transition:box-shadow .9s ease .1s ,height .9s ease .1s ,width .9s ease .1s;
 }
 
 .btn-1:hover {
@@ -179,7 +180,6 @@ span {
 .btn-1 a{
   color: rgba(0, 0, 0, 0.826);
   font-weight: bold;
-
 }
 
 /* _____2nd Area start______ */
@@ -208,20 +208,14 @@ main.scnd-area {
 
 .scnd-cont samp{
   color: #4ADE80;
-
 }
 
 .scnd-video{
-  /* height: 50vh; */
   display: flex;
   align-content: center;
   padding-bottom: 30px;
   margin: 0 auto;
 }
-
-
-
-
 
 /*media parent and child-start*/
 
@@ -512,7 +506,7 @@ main.admin-area {
 
 /* ______Mobile_Area start______ */
 
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 600px){
 
   .desk-nav {
     display: none;
@@ -536,7 +530,6 @@ main.admin-area {
 .main-area h1:nth-child(2) {
   font-size: 3.5vh;
   margin: 5px 34px;
-
 }
 
 .main-area p {
@@ -547,11 +540,12 @@ main.admin-area {
 }
 
 /* video area start */
+
 .main-area video{
   overflow: hidden;
-  width: 90vw;
-  
+  width: 90vw;  
 }
+
 /* video area end */
 
 /* --main Area start-- */
@@ -561,18 +555,13 @@ main.admin-area {
 }
 
 .scnd-video {
-  height: 20vh;
-  padding-bottom: 156px;
-  overflow: hidden;
-  margin: 0 22px;
-  padding-left: 19px;
+  padding: 30px 123px;
 }
 
 .sv-cont {
   flex-direction: column;
   padding: 20px 20px 50px 20px;
   gap: 15px;
-
 }
 
 .sv-cont>.sv-co1,.sv-co2,.sv-co3{
@@ -581,7 +570,7 @@ main.admin-area {
  border-radius: 1rem;
 }
 
- h4{
+ .sv-co1 h4{
  font-size: 10px;
  height: 21px;
  }
@@ -595,11 +584,13 @@ main.admin-area {
 /* _____2nd area end_____ */
 
 /* 4th area strat*/
+
 .parent-crd{
   width: 90vw;
 }
 
 /* admin Area */
+
 main.admin-area {
   display: flex;
   flex-direction: column;
@@ -607,7 +598,7 @@ main.admin-area {
 }
 
 
-.adm-parent{
+.adm-parent {
   width: 90vw;
 }
 
@@ -621,27 +612,16 @@ main.admin-area {
 
 /* footer area */
 
-.get-start {
+.get-start{
   width: 25vw;
 }
 
-.btm-parent {
+.btm-parent{
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   gap: 30px;
 }
-
-/* fixed value */
-  video {
-  max-width: 89%;
-  height: 50vh;
-  /* left: 26px; */
-  position: relative;
-  overflow: hidden;
-}
-
-
 
 }
 /* ______Mobile_Area end______ */
