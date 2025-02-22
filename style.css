@@ -589,10 +589,8 @@ main.admin-area {
   height: 50vh;
 }
 
-.child-crd{
-  p{
-    padding-bottom:50px ;
-  }
+.thea-set{
+  padding: 20px 0 ;
 }
 
 /* admin Area */
