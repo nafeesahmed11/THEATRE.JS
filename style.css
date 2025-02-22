@@ -582,8 +582,9 @@ main.admin-area {
 
 /* 4th area strat*/
 
-.parent-crd{
+.parent-crd {
   width: 90vw;
+  height: 30vh;
 }
 
 /* admin Area */
