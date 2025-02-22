@@ -7,6 +7,7 @@
 .parent {
   background-image: linear-gradient(324deg, black, rgb(3 48 53), black);
   overflow: hidden;
+  padding: 0px 20px;
 }
 
 /* fixed values */
@@ -210,10 +211,10 @@ main.scnd-area {
   color: #4ADE80;
 }
 
-.scnd-video{
+.scnd-video {
   display: flex;
   align-content: center;
-  padding-bottom: 30px;
+  padding: 30px 188px;
   margin: 0 auto;
 }
 
@@ -226,13 +227,13 @@ main.scnd-area {
   gap: 1rem;
 }
 
-.sv-cont>.sv-co1,.sv-co2,.sv-co3{
-  width: 30vw;
- height: 200px;
- justify-content: start;
- display: flex;
- top: 0;
-overflow: hidden !important;
+.sv-cont>.sv-co1, .sv-co2, .sv-co3 {
+  width: 20vw;
+  height: 135px;
+  justify-content: start;
+  display: flex;
+  top: 0;
+  overflow: hidden !important;
  h4{
   color: #f4f4f4f4;
   margin: 2px 0 0 2px;
@@ -555,12 +556,12 @@ main.admin-area {
 }
 
 .scnd-video {
-  padding: 30px 123px;
+  padding: 21px 26px;
 }
 
 .sv-cont {
   flex-direction: column;
-  padding: 20px 20px 50px 20px;
+  padding: 0px 20px 50px 20px;
   gap: 15px;
 }
 
