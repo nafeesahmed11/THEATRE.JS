@@ -297,8 +297,10 @@ main.scnd-area {
   h1{
     font-weight: bold;
     font-size: 30px;
-  
   }
+p{
+  padding-bottom: 10px;
+}
 }
 
 /* _____4th Area End______ */
@@ -584,7 +586,13 @@ main.admin-area {
 
 .parent-crd {
   width: 90vw;
-  height: 30vh;
+  height: 50vh;
+}
+
+.child-crd{
+  p{
+    padding-bottom:50px ;
+  }
 }
 
 /* admin Area */
