@@ -515,17 +515,17 @@ main.admin-area {
 
  
 .main-area h1:nth-child(1) {
-  font-size: 3.5vh;
+  font-size: 4.5vh;
   margin: 10px 5px 0 0;
 }
 
 .main-area h1 samp {
   font-weight: bold;
-  font-size: 3.5vh;
+  font-size: 4.5vh;
 }
 
 .main-area h1:nth-child(2) {
-  font-size: 3.5vh;
+  font-size: 4.5vh;
   margin: 5px 34px;
 }
 
@@ -573,7 +573,7 @@ main.admin-area {
  }
 
  .scnd-cont h3 {
-  font-size: 3.5vh;
+  font-size: 4.5vh;
   height: auto;
   margin: 0 !important;
 }
