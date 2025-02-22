@@ -108,7 +108,7 @@ span {
 
 .main-area {
   width: auto;
-  padding: 0 10px;
+  padding: 0 10px 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,7 +136,7 @@ span {
 .main-area p, .scnd-para {
   color: rgba(255, 253, 253, 0.771);
   font-size: 22px;
-  margin: 5px 50px 50px 50px;
+  margin: 5px 50px 0px 50px;
 }
 .main-area h1 samp{
   color: #4ADE80;
@@ -283,9 +283,9 @@ main.scnd-area {
 /* _____4th Area Start______ */
 
 .parent-crd {
-  width: 90vw;
+  width: 80vw;
   align-self: start;
-  margin: 0 5vw;
+  margin: 0 auto;
 }
 
 .child-crd {
@@ -561,10 +561,10 @@ main.admin-area {
   gap: 15px;
 }
 
-.sv-cont>.sv-co1,.sv-co2,.sv-co3{
- height: 30vh;
- width: 80vw;
- border-radius: 1rem;
+.sv-cont>.sv-co1, .sv-co2, .sv-co3 {
+  height: 10vh;
+  width: 80vw;
+  border-radius: 1rem;
 }
 
  .sv-co1 h4{
