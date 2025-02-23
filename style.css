@@ -644,5 +644,12 @@ main.admin-area {
   gap: 30px;
 }
 
+.sub-btm {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10%;
+  width: 100%;
+  padding-bottom: 60px;
+}
 }
 /* ______Mobile_Area end______ */
