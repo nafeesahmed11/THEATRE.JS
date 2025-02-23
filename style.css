@@ -637,12 +637,17 @@ main.admin-area {
   width: 25vw;
 }
 
+.fot-parent {
+  padding: 14px;
+}
+
 .btm-parent{
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   gap: 30px;
 }
+
 
 .sub-btm {
   display: grid;
