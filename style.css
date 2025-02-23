@@ -647,11 +647,12 @@ main.admin-area {
 .sub-btm {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  /* gap: 7%; */
   width: 100%;
   padding-bottom: 60px;
-  grid-column-gap: 50%;
-}
+  /* grid-column-gap: 50%; */
+  justify-content: space-between;
+  justify-items: stretch;
+  }
 
 }
 /* ______Mobile_Area end______ */
