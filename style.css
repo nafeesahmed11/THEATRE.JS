@@ -35,7 +35,6 @@ a{
 }
 
 .hed-para{
-  /* background-color: black; */
   display: flex;
   width: 20%;
 }
@@ -115,14 +114,13 @@ span {
   text-align: center;
 }
 
-
-
 .main-area h1:nth-child(1) {
   color: #FFFFFF;
   font-size: 70px;
-  margin: 10px 34px 5px 34px;
+  margin: 10px 34px 0px 34px;
   font-family: "Roboto", serif;
   font-weight: 1000;
+  min-height: 100px;
 }
 
 .main-area h1:nth-child(2) {
@@ -481,17 +479,18 @@ main.admin-area {
 
 .sub-btm {
   display: flex;
-  justify-content: space-between;
-  gap: 60px;
+  justify-content: space-around;
+  gap: 10%;
+  width: 100%;
 }
 
 .get-start {
-  width: 15vw;
+  width: 38%;
 }
 
 .get-start h1 {
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 17px;
   padding-bottom: 10px;
 }
 
@@ -499,6 +498,17 @@ main.admin-area {
   font-size: 12px;
   color: rgba(245, 245, 245, 0.673);
 }
+
+.cont-with h1{
+  font-weight: bolder;
+}
+
+.cont-icon {
+  display: flex;
+  gap: 10px;
+}
+
+
 
 /* ____footer area end______ */
 
@@ -518,7 +528,6 @@ main.admin-area {
  
 .main-area h1:nth-child(1) {
   font-size: 4.5vh;
-  margin: 10px 5px 0 0;
 }
 
 .main-area h1 samp {
@@ -528,7 +537,6 @@ main.admin-area {
 
 .main-area h1:nth-child(2) {
   font-size: 4.5vh;
-  margin: 5px 34px;
 }
 
 .main-area p {
