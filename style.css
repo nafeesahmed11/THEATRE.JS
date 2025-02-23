@@ -650,7 +650,7 @@ main.admin-area {
   /* gap: 7%; */
   width: 100%;
   padding-bottom: 60px;
-  grid-column-gap: 38%;
+  grid-column-gap: 50%;
 }
 
 }
