@@ -20,16 +20,17 @@ a{
   text-decoration: none !important;
   
 }
-.right-close{
-  background-color: white;
-  position: absolute;
-  height: 100%;
-  z-index: 99;
-  color:  white;
-  background-color: black;
-  right: -500px;
-  padding: 10px;
-  transition: ease-in-out .5s;
+.right-close {
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    z-index: 99;
+    color: white;
+    background-color: black;
+    right: -500px;
+    padding: 10px;
+    transition: ease-in-out .5s;
+    display: none;
 }
 .right-open{
   transition: ease-in-out .5s;
@@ -41,7 +42,11 @@ a{
   background-color: black;
   right: 0px;
   padding:20px 10px;
+  display: block;
+  animation: display 3s   ease-in-out;
+
 }
+.
 
 .fsrch {
     background-color: white;
